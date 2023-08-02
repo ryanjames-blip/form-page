@@ -1,0 +1,8 @@
+:root {
+    --font: sans-serif;
+}
+
+h1 {
+    font-family: var(--font);
+    text-align: center;
+}
