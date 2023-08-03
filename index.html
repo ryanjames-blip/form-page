@@ -7,9 +7,61 @@
     <title>Form</title>
 </head>
 <body>
-    <h1>Form Page</h1>
-
-    <footer>Photo by <a href="https://unsplash.com/@meric?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Meriç Dağlı</a> on <a href="https://unsplash.com/photos/D7Mgovs4HBs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </footer>
+    <div class="container" id="left">
+        <h1>RyanJamesDev <img src="img/R.png" style="width: 10%;height: 100%;"></h1>
+        <footer id="footer">Photo by <a href="https://unsplash.com/@meric?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Meriç Dağlı</a> on <a href="https://unsplash.com/photos/D7Mgovs4HBs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </footer>
+    </div>
+    <div class="container" id="right">
+        <div class="para">
+            <p>This is not a real online service. This is just a mockup of a form page to practice on The Odin Project.
+                They said some really cheesy stuff in the pdf so I had to type something different here. Hopefully 
+                this is enough to fill the space now...
+            </p>
+            
+            <p>Another <em>cheesy</em> thing</p>
+        </div>
+        <div class="form">
+            <h3>Let's Goooo</h3>
+            <form action="/https://www.google.com/">
+                <ul>
+                    <div class="first-row">
+                        <li>
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </li>
+                        <li>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </li>
+                    </div>
+                    <div class="second-row">
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="number">Phone Number</label>
+                            <input type="text" name="number" id="number">
+                        </li>
+                    </div>
+                    <div class="third-row">
+                        <li>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </li>
+                        <li>
+                            <label for="confirm">Confirm Password</label>
+                            <input type="password" name="confirm" id="confirm" required>
+                        </li>
+                    </div>
+                </ul>
+                <br>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+            
+    </div>
 </body>
 </html>
